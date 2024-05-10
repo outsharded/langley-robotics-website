@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Header: React.FC = () => {
   return (
-    <header className="flex justify-between items-center bg-slate-200 dark:bg-slate-900 p-4 h-14">
+    <header className="flex justify-between items-center bg-teal-50 dark:bg-teal-800 p-4 h-14">
       <div className="flex items-center">
         <div className="logo h-12 p-2">
           <Image src="/logo.png" alt="Powercut Robotics Team Logo" width={120} height={10} />
