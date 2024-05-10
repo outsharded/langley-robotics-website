@@ -11,10 +11,10 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 opacity-95 bg-stone-100 dark:bg-gray-800 px-2 py-4 lg:p-4 flex justify-between items-center h-24">
+    <header className="sticky top-0 opacity-95  bg-stone-100 dark:bg-gray-800 p-4 flex justify-between items-center h-24">
       <div className={`basis-1/2 flex items-center ${isMenuOpen ? 'hidden' : ''}`}>
         <Link href="/">
-          <h1 className={`px-2 text-2xl lg:text-2xl font-bold align-middle font-mono ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
+          <h1 className={`px-2 text-2xl font-bold align-middle font-mono ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
         </Link>
         <div className="hidden md:block logo w-72 p-4">
           <Image src="/powercut-logo.png" alt="Powercut Robotics Team Logo" width={4855} height={795} />
