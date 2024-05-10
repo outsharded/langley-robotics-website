@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
         <div>
           <h1 className="text-5xl font-bold mb-4">Team Powercut UK-497, Global 25268</h1>
           <div className="">
-            <div className="flex py-1 hover:bg-slate-700 rounded-md">
+            <div className="flex py-1 dark:hover:bg-slate-700 hover:bg-slate-300 rounded-md">
               <div className="rounded-lg pl-1 basis-1/4">
                 <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
               </div>
@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="flex py-1 hover:bg-slate-700 rounded-md">
+            <div className="flex py-1 dark:hover:bg-slate-700 hover:bg-slate-300 rounded-md">
               <div className="rounded-lg pl-1 basis-1/4">
                 <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
               </div>
