@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="text-[#252622] dark:text-[#fffcf2] bg-[#fffcf2] dark:bg-[#403d39]">
+    <div className="text-[#252622] dark:text-[#fffcf2] bg-slate-200 dark:bg-slate-800">
       <Header />
       <main className="p-4">
         <div>
