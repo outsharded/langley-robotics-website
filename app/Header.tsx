@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,6 +15,7 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 opacity-95  bg-stone-100 dark:bg-gray-800 p-4 flex justify-between items-center h-24">
       <SpeedInsights/>
+      <Analytics/>
       <div className={`basis-1/2 flex items-center ${isMenuOpen ? 'hidden' : ''}`}>
         <Link href="/">
           <h1 className={`px-2 text-2xl font-bold align-middle font-mono ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
