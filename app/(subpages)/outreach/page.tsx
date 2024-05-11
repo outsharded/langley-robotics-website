@@ -18,12 +18,12 @@ const HomePage: React.FC = () => {
                 </p>
               </div>
               <div className="rounded-lg px-2 basis-1/2 lg:basis-1/5">
-                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
+                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
               </div>
             </div>
             <div className="flex p-2 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
               <div className="rounded-lg px-2 basis-1/2 lg:basis-1/5">
-                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
+                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
               </div>
               <div className="basis-1/4 flex-1 px-2">
               <h1 className="text-2xl font-bold pb-2">Meetings</h1>
@@ -40,7 +40,7 @@ const HomePage: React.FC = () => {
                 </p>
               </div>
               <div className="rounded-lg px-2 basis-1/2 lg:basis-1/5">
-                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
+                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
               </div>
             </div>
           </div>
