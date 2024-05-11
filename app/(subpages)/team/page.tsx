@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
                 </div>
                 <div className="absolute bottom-10 left-0 font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Fabian</div>
                 <div className="absolute bottom-0 left-0 text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Lead programmer</div>
-                <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Absolute neek. Doesn't touch grass, no sports. Medically limited to 5 minutes of sunlight a day.</h2>
+                <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Absolute neek. Doesn&apos;t touch grass, no sports. Medically limited to 5 minutes of sunlight a day.</h2>
               </div>
 
               <div className='relative group hover:bg-stone-200 dark:hover:bg-gray-600 rounded-lg overflow-hidden'>
