@@ -17,12 +17,12 @@ const HomePage: React.FC = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
               </div>
-              <div className="rounded-lg px-2 basis-1/5">
+              <div className="rounded-lg px-2 basis-1/2 lg:basis-1/5">
                 <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
               </div>
             </div>
             <div className="flex p-2 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
-              <div className="rounded-lg px-2 basis-1/5">
+              <div className="rounded-lg px-2 basis-1/2 lg:basis-1/5">
                 <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
               </div>
               <div className="basis-1/4 flex-1 px-2">
@@ -39,7 +39,7 @@ const HomePage: React.FC = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
               </div>
-              <div className="rounded-lg px-2 basis-1/5">
+              <div className="rounded-lg px-2 basis-1/2 lg:basis-1/5">
                 <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={10000} height={100000} />
               </div>
             </div>
