@@ -9,8 +9,8 @@ const HomePage: React.FC = () => {
      <link rel="icon" href="/favicon.ico" sizes="any" />
       <main className="p-1 mb:p-4 px-4 mb:px-10">
         <div>
-          <h1 className="text-5xl font-bold mb-4 pl-2">Team Powercut</h1>
-          <h1 className="text-3xl font-bold mb-4 pl-2">#25268 - UK 497</h1>
+          <h1 className="text-5xl font-bold font-mono mb-4 pl-2">Team Powercut</h1>
+          <h1 className="text-3xl font-bold font-mono mb-4 pl-2">First Tech Challenge #25268 - UK 497</h1>
           <div className="">
             <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
               <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/5">
