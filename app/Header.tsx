@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           <h1 className={`px-2 text-2xl font-bold align-middle font-mono ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
         </Link>
         <div className="hidden md:block logo w-72 p-4">
-          <Image src="/powercut-logo.png" alt="Powercut Robotics Team Logo" width={4855} height={795} />
+          <Image src="/powercut-logo.png" alt="Powercut Robotics Team Logo" width={1000} height={136} sizes="(max-width: 768px) 33vw, (max-width: 1200px) 15vw, 15vw" />
         </div>
       </div>
       <div className="md:basis-3/5 flex justify-end w-full">
