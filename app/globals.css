@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "BD_Plakatbau";
+  font-weight: 100;
+  src: url("/fonts/BD_Plakatbau.otf");
+}
+
+@font-face {
+  font-family: "Microgramma";
+  font-weight: 100;
+  src: url("/fonts/MicrogrammaDBolExt.ttf");
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
