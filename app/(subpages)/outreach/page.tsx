@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       <Header />
       <main className="p-1 mb:p-4 px-4 mb:px-10">
         <div>
-          <h1 className="text-5xl font-bold font-mono mb-4 px-4">Outreach</h1>
+          <h1 className="text-5xl font-bold font-okcomputer mb-4 px-4">Outreach</h1>
           <div className="grid grid-flow-row-dense gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-2">
               
           <div className='aspect-[2/1] relative group col-span-2 hover:bg-stone-200 dark:hover:bg-gray-600 rounded-lg overflow-hidden'>
