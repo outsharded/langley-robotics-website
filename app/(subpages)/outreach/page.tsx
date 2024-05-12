@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
 
               <div className='aspect-square relative group hover:bg-stone-200 d dark:hover:bg-gray-600 rounded-lg overflow-hidden'>
                 <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100 aspect-square">
-                  <Image className="rounded-lg" src="/sqr_ss.jpeg" alt="Powercut Robotics Team" width={600} height={600} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                  <Image className="rounded-lg" src="/headshots/square.jpeg" alt="Powercut Robotics Team" width={600} height={600} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
                 <div className="absolute top-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-br-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Meeting</div>
                 <div className="absolute top-10 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">76/34/3233</div>

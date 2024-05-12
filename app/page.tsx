@@ -12,36 +12,44 @@ const HomePage: React.FC = () => {
           <h1 className="text-5xl font-bold font-mono mb-4 pl-2">Team Powercut</h1>
           <h1 className="text-3xl font-bold font-mono mb-4 pl-2">First Tech Challenge #25268 - UK 497</h1>
           <div className="">
-            <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
-              <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/5">
-                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" priority={true} width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
+
+            <div className='lg:flex'>
+
+              <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
+                <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/3">
+                  <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" priority={true} width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
+                </div>
+                <div className="basis-1/4 flex-1 px-4">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  </p>
+                </div>
               </div>
-              <div className="basis-1/4 flex-1 px-4">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
+
+              <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
+                <div className="basis-1/4 flex-1 px-4">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  </p>
+                </div>
+                <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/3">
+                  <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
+                </div>
               </div>
+              
             </div>
+
             <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
-              <div className="basis-1/4 flex-1 px-4">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
-              </div>
               <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/5">
                 <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
               </div>
-            </div>
-            <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
-              <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/5">
-                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
-              </div>
               <div className="basis-1/4 flex-1 px-4">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </main>

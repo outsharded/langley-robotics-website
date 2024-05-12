@@ -16,8 +16,8 @@ const HomePage: React.FC = () => {
                 <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100">
                   <Image src="/headshots/square.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-10 left-0 font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Fabian</div>
-                <div className="absolute bottom-0 left-0 text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Lead programmer</div>
+                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Fabian</div>
+                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Lead programmer</div>
                 <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Absolute neek. Doesn&apos;t touch grass, no sports. Medically limited to 5 minutes of sunlight a day.</h2>
               </div>
 
@@ -25,8 +25,8 @@ const HomePage: React.FC = () => {
                 <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100">
                   <Image src="/headshots/square.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-10 left-0 font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Gupta</div>
-                <div className="absolute bottom-0 left-0 text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Non-technical Lead</div>
+                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Gupta</div>
+                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Non-technical Lead</div>
                 <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Rich lanky man</h2>
               </div>
 
@@ -34,8 +34,8 @@ const HomePage: React.FC = () => {
                 <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100">
                   <Image src="/headshots/square.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-10 left-0 font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Arthur</div>
-                <div className="absolute bottom-0 left-0 text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Engineering lead</div>
+                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Arthur</div>
+                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Engineering lead</div>
                 <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Ginger, leads to a pot of gold</h2>
               </div>
 
