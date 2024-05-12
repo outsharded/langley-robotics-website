@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Langley Robotics",
   description: "FTC Team #25268, Powercut",
   icons: {
-    con: "/favicon.ico",
+    icon: "/favicon.ico",
   }
 };
 
