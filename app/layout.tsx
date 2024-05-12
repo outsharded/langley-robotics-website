@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Langley Robotics",
   description: "FTC Team #25268, Powercut",
+  icons: {
+    con: "/favicon.ico",
+  }
 };
 
 export const viewport: Viewport = {
