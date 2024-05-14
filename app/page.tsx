@@ -1,58 +1,71 @@
 import React from 'react';
 import Header from './Header';
 import Image from 'next/image';
+import Footer from './Footer';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="min-h-screen text-cyan-950 dark:text-amber-50 bg-stone-100 dark:bg-gray-800">
-     <Header />
-     <link rel="icon" href="/favicon.ico" sizes="any" />
-      <main className="p-1 mb:p-4 px-4 mb:px-10">
-        <div>
-          <h1 className="text-5xl font-bold font-okcomputer mb-4 pl-2">Team Powercut</h1>
-          <h1 className="text-3xl font-bold font-okcomputer mb-4 pl-2">First Tech Challenge #25268 - UK 497</h1>
-          <div className="">
+    
+    <div className="min-h-screen font-avenir font-medium text-cyan-950 dark:text-amber-50 bg-stone-100 dark:bg-black">
+      <Header />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <main className="">
 
-            <div className='lg:flex'>
-
-              <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
-                <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/3">
-                  <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" priority={true} width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
-                </div>
-                <div className="basis-1/4 flex-1 px-4">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
-                <div className="basis-1/4 flex-1 px-4">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                  </p>
-                </div>
-                <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/3">
-                  <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
-                </div>
-              </div>
-              
+        <div className='bg-fixed bg-cover pb-14' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}}>
+          
+          <div className='pt-32 -mt-24'></div>
+          <div className='flex justify-center items-center'>
+          <div className="w-4/5 p-2 rounded-lg">
+            <div className="w-full flex justify-center lg:h-[600px] 2xl:h-[800px]">
+              <Image className="rounded-lg object-cover object-top" src="/side-pitch.png" alt="image" width="10000" height="10000" />
+              <div className="absolute text-center pt-2 w-full">
+                <h1 className="text-3xl md:text-5xl font-bold font-avenir text-amber-50">Team Powercut</h1>
+                <h1 className="text-3xl font-medium font-avenir invisible md:visible text-amber-50">First Tech Challenge #25268 - UK 497</h1>
             </div>
-
-            <div className="flex p-3 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
-              <div className="rounded-lg pl-1 basis-1/2 lg:basis-1/5">
-                <Image className="rounded-md" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={500} height={800} sizes="(max-width: 1024px) 50vw, 20vw"/>
-              </div>
-              <div className="basis-1/4 flex-1 px-4">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
-              </div>
             </div>
 
           </div>
+          </div>
+          
+        </div>
+
+        <div className='w-full bg-powercut_yellow text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center py-2 items-center text-center md:text-start py-6'>
+          
+          <div className='rounded-lg m-4 h-full'>
+            <Image className="rounded-lg float-right w-2/5 2 m-3 " src="/2-1.png" alt="image" width="1000" height="1000" />
+            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
+            <p className='p-2 text-md text-start'>pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida in fermentum</p>
+            
+          </div>
+         
+          <div className='rounded-lg m-4 h-full'>
+            <Image className="rounded-lg float-left w-2/5 m-3 " src="/side-pitch.png" alt="image" width="1000" height="1000" />
+            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
+            <p className='p-2 text-md text-start'>id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam quam nulla porttitor massa id neque aliquam</p>
+          </div>
+        
+        </div>
+
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 p-3 text-center md:text-start text-md'>
+          
+          <div className='rounded-lg m-4'>
+            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
+            <p className='p-2'>mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt</p>
+          </div>
+
+          <div className='rounded-lg m-4'>
+            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
+            <p className='p-2'>ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed</p>
+          </div>
+
+          <div className='rounded-lg m-4'>
+            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
+            <p className='p-2'>tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim</p>
+          </div>
+          
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
