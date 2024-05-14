@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       <Header />
       <main className="p-1 mb:p-4 px-4 mb:px-10">
         <div>
-          <h1 className="text-5xl font-bold font-okcomputer mb-4 px-4">Meet the team</h1>
+          <h1 className="text-5xl font-bold font-avenir mb-4 px-4">Meet the team</h1>
           <div className="">
             <div className='grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-2'>
               

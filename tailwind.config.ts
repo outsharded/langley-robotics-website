@@ -11,12 +11,17 @@ const config: Config = {
       fontFamily: {
         'kida': ['BD_Plakatbau', 'sans-serif'],
         'okcomputer': ['Microgramma', 'sans-serif'],
+        'avenir': ['avenir', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        powercut_yellow:'#F5C249',
+        dark_bg_box: '#0a0a0a',
+      }
     },
   },
   plugins: [],

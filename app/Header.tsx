@@ -13,12 +13,12 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="sticky font-okcomputer text-md top-0 opacity-95  bg-stone-100 dark:bg-gray-800 p-4 flex justify-between items-center h-24">
+    <header className="z-10 sticky font-bold font-avenir text-md top-0 opacity-90  bg-stone-100 dark:bg-neutral-950 p-4 flex justify-between items-center h-24">
       <SpeedInsights/>
       <Analytics/>
       <div className={`basis-1/2 flex items-center ${isMenuOpen ? 'hidden' : ''}`}>
         <Link href="/">
-          <h1 className={`px-2 text-2xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
+          <h1 className={`px-2 text-3xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
         </Link>
         <div className="hidden md:block logo w-72 p-4">
           <Image src="/powercut-logo.png" alt="Powercut Robotics Team Logo" width={2000} height={400} sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 33vw" />
@@ -27,7 +27,7 @@ const Header: React.FC = () => {
       <div className="md:basis-3/5 flex justify-end w-full">
         <div className={`w-full lg:w-auto ${isMenuOpen ? '' : 'hidden lg:flex'}`}>
           <nav className={`nav ${isMenuOpen ? 'block' : 'hidden lg:block'}`}>
-            <div className="flex flex-wrap lg:justify-end">
+            <div className="flex flex-wrap lg:justify-end text-xl">
               <Link href="/about" className="hover:text-gray-300 p-2">
                 About Us
               </Link>
@@ -45,6 +45,7 @@ const Header: React.FC = () => {
               </Link>
             </div>
           </nav>
+          
         </div>
         <div className="lg:hidden absolute top-8 right-4">
           <button onClick={toggleMenu} className="focus:outline-none">

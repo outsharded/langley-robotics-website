@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       <Header />
       <main className="p-1 mb:p-4 px-4 mb:px-10">
         <div>
-          <h1 className="text-5xl font-bold font-okcomputer mb-4 px-4">About Us</h1>
+          <h1 className="text-5xl font-bold font-avenir mb-4 px-4">About Us</h1>
           <div className="">
             <div className="flex p-2 dark:hover:bg-gray-700 hover:bg-gray-300 rounded-md">
                 <div className="basis-1/4 flex-1 pl-4">
