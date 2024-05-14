@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '@/app/Header';
 import Image from 'next/image';
+import Footer from '@/app/Footer';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="min-max text-[#252622] dark:text-[#fffcf2] bg-stone-100 dark:bg-black">
+    <div className="h-max text-[#252622] dark:text-[#fffcf2] bg-stone-100 dark:bg-black">
       <Header />
       <main className='h-max p-1 -mt-24 pt-32 mb:p-4 px-4 mb:px-10 bg-fixed bg-cover' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}}>
         <div>
@@ -22,7 +23,7 @@ const HomePage: React.FC = () => {
 
               <div className='relative rounded-lg overflow-hidden'>
                 <div className="">
-                  <Image src="/headshots/happy-gupta.png" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                  <Image src="/headshots/gupta.png" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
                 <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Adrian</div>
                 <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Notebook man</div>
@@ -55,7 +56,9 @@ const HomePage: React.FC = () => {
             </div>
           </div>
         </div>
+        
       </main>
+      <Footer/>
     </div>
   );
 };

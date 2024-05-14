@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
           <div className='flex justify-center items-center'>
           <div className="w-4/5 p-2 rounded-lg">
             <div className="w-full flex justify-center lg:h-[600px] 2xl:h-[800px]">
-              <Image className="rounded-lg object-cover object-top" src="/side-pitch.png" alt="image" width="10000" height="10000" />
+              <Image className="rounded-lg object-cover object-top opacity-50" src="/side-pitch.png" alt="image" width="2000" height="1501" priority />
               <div className="absolute text-center pt-2 w-full">
                 <h1 className="text-3xl md:text-5xl font-bold font-avenir text-amber-50">Team Powercut</h1>
                 <h1 className="text-3xl font-medium font-avenir invisible md:visible text-amber-50">First Tech Challenge #25268 - UK 497</h1>
@@ -32,16 +32,16 @@ const HomePage: React.FC = () => {
         <div className='w-full bg-powercut_yellow text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center py-2 items-center text-center md:text-start py-6'>
           
           <div className='rounded-lg m-4 h-full'>
-            <Image className="rounded-lg float-right w-2/5 2 m-3 " src="/2-1.png" alt="image" width="1000" height="1000" />
-            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
-            <p className='p-2 text-md text-start'>pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida in fermentum</p>
+            <Image className="rounded-lg float-right w-2/5 2 m-3 " src="/content/backdrops.png" alt="image" width="1000" height="1000" />
+            <h1 className="text-5xl font-medium font-avenir p-2">Outreach</h1>
+            <p className='p-2 text-md text-start'>Outreach is a crucial part of our team strategy. It is incredibly important to us to outreach to other schools</p>
             
           </div>
          
           <div className='rounded-lg m-4 h-full'>
-            <Image className="rounded-lg float-left w-2/5 m-3 " src="/side-pitch.png" alt="image" width="1000" height="1000" />
-            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
-            <p className='p-2 text-md text-start'>id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam quam nulla porttitor massa id neque aliquam</p>
+            <Image className="rounded-lg float-left w-2/5 m-3 " src="/content/in_feild.png" alt="image" width="1000" height="1000" />
+            <h1 className="text-5xl font-medium font-avenir p-2">Competition</h1>
+            <p className='p-2 text-md text-start'>On March 23rd we attented the South East Regional. We won the Innovate Award and we are ranked 8th in the UK.</p>
           </div>
         
         </div>
