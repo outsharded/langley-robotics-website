@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
             <div className="w-full flex justify-center lg:h-[600px] 2xl:h-[800px]">
               <Image className="rounded-lg object-cover object-top" src="/side-pitch.png" alt="image" width="10000" height="10000" />
               <div className="absolute text-center pt-2 w-full">
-                <h1 className="text-5xl font-bold font-avenir text-amber-50">Team Powercut</h1>
+                <h1 className="text-3xl md:text-5xl font-bold font-avenir text-amber-50">Team Powercut</h1>
                 <h1 className="text-3xl font-medium font-avenir invisible md:visible text-amber-50">First Tech Challenge #25268 - UK 497</h1>
             </div>
             </div>
