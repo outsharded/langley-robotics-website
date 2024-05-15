@@ -37,9 +37,11 @@ const Header: React.FC = () => {
               <Link href="/team" className="hover:text-gray-300 p-2">
                 Meet The Team
               </Link>
+              {/** 
               <Link href="/outreach" className="hover:text-gray-300 p-2">
                 Outreach
               </Link>
+              */}
               <Link href="https://www.gofundme.com/en-gb" className="hover:text-gray-300 p-2">
                 Donate
               </Link>
