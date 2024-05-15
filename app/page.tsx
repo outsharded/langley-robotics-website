@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <main className="">
 
-        <div className='bg-fixed md:bg-cover pb-14' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}}>
+        <div className='bg-fixed md:bg-cover pb-14' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}} rel='preload'>
           
           <div className='pt-32 -mt-24'></div>
           <div className='flex justify-center items-center'>
