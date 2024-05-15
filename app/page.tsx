@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 import side_pitch from '../public/content/side_pitch.webp';
 import backdrops from '../public/content/backdrops.png';
-import in_field from '../public/content/in_feild.png';
+import in_field from '../public/content/in_feild.webp';
 
 const HomePage: React.FC = () => {
   return (
@@ -17,11 +17,11 @@ const HomePage: React.FC = () => {
 
         <div className='bg-fixed md:bg-cover pb-14' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}} rel='preload'>
           
-          <div className='pt-32 -mt-24'></div>
+          <div className='pt-40 -mt-24'></div>
           <div className='flex justify-center items-center'>
-          <div className="w-4/5 p-2 rounded-lg">
+          <div className="w-11/12 p-2 rounded-lg">
             <div className="w-full flex justify-center lg:h-[600px] 2xl:h-[800px]">
-              <Image className="rounded-lg object-cover object-top opacity-85 dark:opacity-75" src={side_pitch} alt="powercut team by side of game pitch"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 80vw, 80vw" priority />
+              <Image className="rounded-lg object-cover object-top brightness-75 opacity-95" src={side_pitch} alt="powercut team by side of game pitch"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
               <div className="absolute text-center pt-2 w-full">
                 <h1 className="text-3xl md:text-5xl font-bold font-avenir text-amber-50">Team Powercut</h1>
                 <h1 className="text-3xl font-medium font-avenir invisible md:visible text-amber-50">First Tech Challenge #25268 - UK 497</h1>
@@ -37,14 +37,14 @@ const HomePage: React.FC = () => {
           
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-right w-2/5 2 m-3 " src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />
-            <h1 className="text-5xl font-medium font-avenir p-2">Outreach</h1>
+            <h1 className="text-4xl font-medium font-avenir p-2">Outreach</h1>
             <p className='p-2 text-md text-start'>Outreach is a crucial part of our team strategy. It is incredibly important to us to outreach to other schools</p>
             
           </div>
          
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-left w-2/5 m-3 " src={in_field} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
-            <h1 className="text-5xl font-medium font-avenir p-2">Competition</h1>
+            <h1 className="text-4xl font-medium font-avenir p-2">Competition</h1>
             <p className='p-2 text-md text-start'>On March 23rd we attented the South East Regional. We won the Innovate Award and we are ranked 8th in the UK.</p>
           </div>
         

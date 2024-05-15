@@ -1,55 +1,39 @@
 import React from 'react';
 import Header from '@/app/Header';
 import Image from 'next/image';
+import Footer from '@/app/Footer';
+import dustpan from '../../../public/content/dustpan.png'
+import gsub0 from '../../../public/content/brighton_coll.png'
 
 const HomePage: React.FC = () => {
   return (
-    <div className="min-h-screen text-[#252622] dark:text-[#fffcf2] bg-stone-100 dark:bg-gray-800">
+    <div className="min-h-screen text-[#252622] dark:text-[#fffcf2] bg-stone-100 dark:bg-black">
       <Header />
-      <main className="p-1 mb:p-4 px-4 mb:px-10">
+      <main className="-mt-24 pt-28 bg-fixed md:bg-cover" style={{backgroundImage: 'url(/backgrounds/topography.svg)'}}>
         <div>
-          <h1 className="text-5xl font-bold font-avenir mb-4 px-4">Outreach</h1>
-          <div className="grid grid-flow-row-dense gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-2">
-              
-          <div className='aspect-[2/1] relative group col-span-2 hover:bg-stone-200 dark:hover:bg-gray-600 rounded-lg overflow-hidden'>
-                <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100">
-                  <Image className="rounded-lg" src="/2-1.png" alt="Powercut Robotics Team" width={1000} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
-                </div>
-                <div className="absolute top-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-br-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">School</div>
-                <div className="absolute top-10 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">22/3/2067</div>
-                <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Lorem ipsum</h2>
-              </div>
+          <h1 className="text-7xl font-bold font-avenir m-4 text-center">Outreach</h1>
 
-              <div className='aspect-square relative group hover:bg-stone-200 d dark:hover:bg-gray-600 rounded-lg overflow-hidden'>
-                <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100 aspect-square">
-                  <Image className="rounded-lg" src="/headshots/square.jpeg" alt="Powercut Robotics Team" width={600} height={600} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
-                </div>
-                <div className="absolute top-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-br-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Meeting</div>
-                <div className="absolute top-10 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">76/34/3233</div>
-                <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Some teams</h2>
-              </div>
-
-              <div className='aspect-square relative group hover:bg-stone-200 dark:hover:bg-gray-600 rounded-lg overflow-hidden'>
-                <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100 aspect-square">
-                  <Image className="rounded-lg" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={600} height={600} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
-                </div>
-                <div className="absolute top-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-br-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Presentation</div>
-                <div className="absolute top-10 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">dd/mm/yyyy</div>
-                <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>Slideshow edit mr birling</h2>
-              </div>
-
-              <div className='aspect-square relative group hover:bg-stone-200 dark:hover:bg-gray-600 rounded-lg overflow-hidden'>
-                <div className="transition-opacity duration-500 ease-in-out group-hover:opacity-15 opacity-100 aspect-square">
-                  <Image className="rounded-lg" src="/robot_in_room.jpg" alt="Powercut Robotics Team" width={600} height={600} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
-                </div>
-                <div className="absolute top-0 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-br-lg font-mono text-2xl px-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">Dah</div>
-                <div className="absolute top-10 left-0 bg-stone-100 dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg text-xl p-2 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">dd/mm/yyyy</div>
-                <h2 className='absolute top-0 p-2 transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100'>indubitibaly</h2>
-              </div>
-
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 px-8 '>
+            <Image
+              className='w-full rounded-lg object-cover object-center lg:h-[400px] 2xl:h-[600px]'
+              src={dustpan}
+              alt='robot with dustpan on it'
+            />
+            <Image
+              className='rounded-lg w-full object-cover object-center lg:h-[400px] 2xl:h-[600px]'
+              src={gsub0}
+              alt='robot with dustpan on it'
+            />
           </div>
+
+          <div className='py-4 text-center bg-powercut_yellow'>
+            <h1 className='p-1 text-5xl font-avenir font-bold'>Our mission</h1>
+            <p className='px-6 2xl:px-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet massa vitae tortor condimentum. Et malesuada fames ac turpis egestas sed tempus. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Cursus euismod quis viverra nibh cras pulvinar mattis nunc. Facilisis sed odio morbi quis commodo odio. Consectetur adipiscing elit ut aliquam purus sit amet luctus. Orci nulla pellentesque dignissim enim sit amet venenatis urna. Pulvinar elementum integer enim neque. Habitant morbi tristique senectus et netus et malesuada fames ac. Donec massa sapien faucibus et molestie ac feugiat sed lectus. Faucibus pulvinar elementum integer enim.</p>
+          </div>
+
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 };
