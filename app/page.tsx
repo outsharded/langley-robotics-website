@@ -32,14 +32,14 @@ const HomePage: React.FC = () => {
         <div className='w-full bg-powercut_yellow text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center py-2 items-center text-center md:text-start py-6'>
           
           <div className='rounded-lg m-4 h-full'>
-            <Image className="rounded-lg float-right w-2/5 2 m-3 " src="/content/backdrops.png" alt="image" width="1000" height="1000" />
+            <Image className="rounded-lg float-right w-2/5 2 m-3 " src="/content/backdrops.png" alt="image" width="1000" height="1000"  sizes="(max-width: 1024px) 20vw, 10vw" />
             <h1 className="text-5xl font-medium font-avenir p-2">Outreach</h1>
             <p className='p-2 text-md text-start'>Outreach is a crucial part of our team strategy. It is incredibly important to us to outreach to other schools</p>
             
           </div>
          
           <div className='rounded-lg m-4 h-full'>
-            <Image className="rounded-lg float-left w-2/5 m-3 " src="/content/in_feild.png" alt="image" width="1000" height="1000" />
+            <Image className="rounded-lg float-left w-2/5 m-3 " src="/content/in_feild.png" alt="image" width="1000" height="1000" sizes="(max-width: 1024px) 20vw, 10vw" />
             <h1 className="text-5xl font-medium font-avenir p-2">Competition</h1>
             <p className='p-2 text-md text-start'>On March 23rd we attented the South East Regional. We won the Innovate Award and we are ranked 8th in the UK.</p>
           </div>
