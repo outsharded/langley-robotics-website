@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
+import logo from '../public/logo.webp'
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ const Header: React.FC = () => {
           <h1 className={`px-2 text-3xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
         </Link>
         <div className="hidden md:block logo w-72 p-4">
-          <Image src="/powercut-logo.png" alt="Powercut Robotics Team Logo" width={2000} height={400} sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 33vw" />
+          <Image src={logo} alt="Powercut Robotics Team Logo" sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 33vw" />
         </div>
       </div>
       <div className="md:basis-3/5 flex justify-end w-full">
