@@ -9,18 +9,20 @@ const Footer: React.FC = () => {
 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
           <h1 className='text-4xl p-2 font-bold'>Contact Us</h1>
-          <a href="mailto:keiran@langley-robotics.org" className='px-2 py-1'>Finance: keiran@langley-robotics.org</a><br/>
+          
           <a href="mailto:fabian@langley-robotics.org" className='px-2 py-1'>Contact: adrian@langley-robotics.org</a><br/>
         </div>
 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
-            <h1 className='text-4xl p-2 font-bold'>Footer 2</h1>
+            <h1 className='text-4xl p-2 font-bold'>Finance</h1>
+            <a href="mailto:keiran@langley-robotics.org" className='px-2 py-1'>Finance: keiran@langley-robotics.org</a><br/>
         </div>
 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
-            <h1 className='text-4xl p-2 font-bold'>Footer 3</h1>
+            <h1 className='text-4xl p-2 font-bold'>Socials</h1>
+            <a href="https://www.instagram.com/lpsb_robotics/" className='px-2 py-1'>Instagram</a><br/>
         </div>
-      <p className='ml-2 font-avenir'>© Powercut Robotics</p>
+      <p className='m-2 font-avenir'>© Powercut Robotics</p>
     </footer>
   );
 };
