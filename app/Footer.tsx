@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
             <h1 className='text-4xl p-2 font-bold'>Footer 3</h1>
         </div>
-<p
+      <p className='ml-2 font-avenir'>© Powercut Robotics</p>
     </footer>
   );
 };
