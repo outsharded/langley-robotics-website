@@ -3,7 +3,7 @@ import Header from './Header';
 import Image from 'next/image';
 import Footer from './Footer';
 
-import side_pitch from '../public/content/side-pitch.png';
+import side_pitch from '../public/content/side_pitch.webp';
 import backdrops from '../public/content/backdrops.png';
 import in_field from '../public/content/in_feild.png';
 
