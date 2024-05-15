@@ -6,6 +6,7 @@
 @font-face {
   font-family: "Avenir";
   src: url("/fonts/AvenirNext.woff2");
+  font-display: "swap";
 }
 
 :root {
