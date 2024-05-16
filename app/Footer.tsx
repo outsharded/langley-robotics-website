@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
             <h1 className='text-6xl p-2 font-bold'>Finance</h1>
-            <a href="mailto:keiran@powercut-robotics.org" className='text-xl px-2 py-1'>Finance: finance@powercut-robotics.org</a><br/>
+            <a href="mailto:finance@powercut-robotics.org" className='text-xl px-2 py-1'>Finance: finance@powercut-robotics.org</a><br/>
         </div>
 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
