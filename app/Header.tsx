@@ -41,11 +41,12 @@ const Header: React.FC = () => {
               <Link href="/outreach" className="hover:text-gray-300 p-2">
                 Outreach
               </Link>
-              */}
+              
               <Link href="https://www.gofundme.com/en-gb" className="hover:text-gray-300 p-2">
                 Donate
               </Link>
-              <Link href="https://www.instagram.com/lpsb_robotics/" className="hover:text-gray-300 p-2">
+              */}
+              <Link href="https://www.instagram.com/powercut_robotics/" className="hover:text-gray-300 p-2">
                 Instagram
               </Link>
             </div>

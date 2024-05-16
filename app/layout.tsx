@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Langley Robotics",
+  title: "Powercut Robotics",
   description: "FTC Team #25268, Powercut",
   icons: {
     icon: "/favicon.ico",
