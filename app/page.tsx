@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-left w-2/5 m-3 " src={in_field} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">Competition</h1>
-            <p className='p-2 text-md text-start'>On March 23rd we attented the South East Regional. We won the Innovate Award and Finalist Alliance Captian Award and we are ranked 8th in the UK. We will see you at Champs of 21st June!</p>
+            <p className='p-2 text-md text-start'>On March 23rd we attented the South East Regional. We won the Innovate Award and Finalist Alliance Captian Award and we are ranked 8th in the UK. We will see you at Champs on 21st June!</p>
           </div>
         
         </div>
