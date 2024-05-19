@@ -3,8 +3,8 @@ import Header from './Header';
 import Image from 'next/image';
 import Footer from './Footer';
 
-import side_pitch from '../public/content/team_nofry.webp';
-import backdrops from '../public/content/backdrops.png';
+import side_pitch from '../public/content/comp_trophies.webp';
+import backdrops from '../public/content/backdrops.webp';
 import in_field from '../public/content/in_feild.webp';
 
 const HomePage: React.FC = () => {
@@ -21,10 +21,10 @@ const HomePage: React.FC = () => {
           <div className='flex justify-center items-center'>
           <div className="w-11/12 p-2 rounded-lg">
             <div className="w-full flex justify-center lg:h-[600px] 2xl:h-[800px]">
-              <Image className="rounded-lg object-cover object-top brightness-75 opacity-95" src={side_pitch} alt="powercut team by side of game pitch"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
-              <div className="absolute text-center pt-2 w-full">
-                <h1 className="text-3xl md:text-5xl font-bold font-avenir text-amber-50">Team Powercut</h1>
-                <h1 className="text-3xl font-medium font-avenir invisible md:visible text-amber-50">First Tech Challenge #25268 - UK 497</h1>
+              <Image className="rounded-lg object-cover object-top brightness-75 dark:opacity-95 opacity-100" src={side_pitch} alt="powercut team with awards"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
+              <div className="absolute text-center pt-2 w-full text-amber-50">
+                <h1 className="text-3xl md:text-5xl font-bold font-avenir">Team Powercut</h1>
+                <h1 className="text-3xl font-medium font-avenir invisible md:visible">First Tech Challenge #25268 - UK 497</h1>
             </div>
             </div>
 
@@ -33,23 +33,23 @@ const HomePage: React.FC = () => {
           
         </div>
 
-        <div className='w-full bg-powercut_yellow text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-center md:text-start py-6'>
+        <div className='w-full bg-powercut_pink text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-center md:text-start py-6'>
           
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-right w-2/5 2 m-3 " src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">Outreach</h1>
-            <p className='p-2 text-md text-start'>Outreach is a crucial part of our team strategy. It is incredibly important to us to outreach to other schools</p>
+            <p className='p-2 text-md text-start'>Outreach is a crucial part of our team strategy. It is incredibly important to us to outreach to other teams, and work with them to promote Robotics and STEM.</p>
             
           </div>
          
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-left w-2/5 m-3 " src={in_field} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">Competition</h1>
-            <p className='p-2 text-md text-start'>On March 23rd we attented the South East Regional. We won the Innovate Award and we are ranked 8th in the UK.</p>
+            <p className='p-2 text-md text-start'>On March 23rd we attented the South East Regional. We won the Innovate Award and Finalist Alliance Captian Award and we are ranked 8th in the UK. We will see you at Champs of 21st June!</p>
           </div>
         
         </div>
-
+{/** 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 p-3 text-center md:text-start text-md'>
           
           <div className='rounded-lg m-4'>
@@ -68,6 +68,7 @@ const HomePage: React.FC = () => {
           </div>
           
         </div>
+        */}
       </main>
       <Footer />
     </div>

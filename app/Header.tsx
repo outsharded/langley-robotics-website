@@ -19,7 +19,7 @@ const Header: React.FC = () => {
       <Analytics/>
       <div className={`basis-1/2 flex items-center ${isMenuOpen ? 'hidden' : ''}`}>
         <Link href="/">
-          <h1 className={`px-2 text-3xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>Langley <br></br> Robotics</h1>
+          <h1 className={`px-2 text-3xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>LPSB <br></br> Robotics</h1>
         </Link>
         <div className="hidden md:block logo w-72 p-4">
           <Image src={logo} alt="Powercut Robotics Team Logo" sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 33vw" />
@@ -34,6 +34,9 @@ const Header: React.FC = () => {
                 About Us
               </Link> 
               */}
+              <Link href="/" className="hover:text-gray-300 p-2">
+                Home
+              </Link>
               <Link href="/team" className="hover:text-gray-300 p-2">
                 Meet The Team
               </Link>
