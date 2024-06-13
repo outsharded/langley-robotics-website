@@ -61,26 +61,25 @@ const HomePage: React.FC = () => {
                 <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">CAD Officer</div>
               </div>
 
-              <div className='relative rounded-lg overflow-hidden'>
+              <div className='col-span-2 relative rounded-lg overflow-hidden'>
                 <div className="">
-                  <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/ethan.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                  <Image className='rounded-lg w-full aspect-[2/1] object-cover' src="/headshots/year8s.jpg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Ethan</div>
+                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Milo, Joshua, Evan and Ethan</div>
                 <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Build Team</div>
               </div>
 
-              <div className='relative rounded-lg overflow-hidden'>
+              <div className='col-span-2 relative rounded-lg overflow-hidden'>
                 <div className="">
-                  <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/milo.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                  <Image className='rounded-lg w-full aspect-[2/1] object-cover' src="/headshots/sixthformers.jpg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Milo</div>
-                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Build Team</div>
+                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Ayaan, Eren, Izzy and Alaanis</div>
+                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Drone Team</div>
               </div>
 
-
-              <div className='relative rounded-lg overflow-hidden'>
+              <div className='col-span-2 relative rounded-lg overflow-hidden'>
                 <div className="">
-                  <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/fry_poon.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                  <Image className='rounded-lg w-full aspect-[2/1] object-cover' src="/headshots/fry_poon.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
                 <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Mr Fry/Dr Poon</div>
                 <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Mentors</div>

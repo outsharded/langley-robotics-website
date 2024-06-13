@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Powercut Robotics",
-  description: "FTC Team #25268, Powercut",
+  description: "FTC Team #25268, UK-497",
   icons: {
     icon: "/favicon.ico",
   }
