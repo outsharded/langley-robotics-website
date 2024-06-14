@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
         <div>
           <h1 className="text-5xl font-bold font-avenir mb-4 px-4">Meet the team</h1>
           <div className="">
-            <div className='grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 p-2 items-center justify-center'>
+            <div className='grid gap-2 grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-6 p-2 items-center justify-center'>
               
               <div className='col-span-1 relative rounded-lg overflow-hidden'>
                 <div className="">

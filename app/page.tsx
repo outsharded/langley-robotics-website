@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Footer from './Footer';
 
 import side_pitch from '../public/content/comp_trophies.webp';
-import backdrops from '../public/content/ground-with-underglow.jpeg';
+import backdrops from '../public/content/blue-green-underglow.jpeg';
 import in_field from '../public/content/in_feild.webp';
 
 const HomePage: React.FC = () => {
@@ -39,38 +39,38 @@ const HomePage: React.FC = () => {
             <Image className="rounded-lg float-right w-2/5 2 m-3 aspect-[1/1] object-cover" src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">About Us</h1>
             <p className='p-2 text-lg font-medium text-start'>
-Hi! We&apos;re Powercut Robotics from Langley Park School for Boys in South London. This is our first year doing FTC. <br /> <br />
+Hi! We&apos;re Powercut Robotics, 25268 (UK-497) from Langley Park School for Boys in South London. This is our rookie year of FTC. <br /> <br />
 We started the year having no idea about what FTC is, and for the whole year, we learnt as we worked. Despite our kit only arriving in November, we placed very well in regionals, winning Finalist Alliance Captain and the Innovate Award. After this, we decided to essentially rebuild our robot from scratch, having learnt a lot from other teams. We also concentrated our focus on outreach and fundraising, and recently found out that we are a championship organisation!</p>
             
           </div>
          
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-left w-2/5 m-3 aspect-[1/1] object-cover" src={in_field} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
-            <h1 className="text-4xl font-medium font-avenir p-2">Competition</h1>
-            <p className='p-2 text-lg font-small text-start'>On March 23rd we attented the South East Regional 2 (Harris Sutton). We won the Innovate Award and Finalist Alliance Captian Award and we are ranked 9th in the UK in terms of OPR. We will see you at the UK Championship on 21st June!</p>
+            <h1 className="text-4xl font-medium font-avenir p-2">Our Season</h1>
+            <p className='p-2 text-lg font-small text-start'>We attended the South East Regional 2 at Harris Sutton on the 23rd March. We won the Innovate award for our intake system, and Finalist Alliace Captain award. <br /> <br /> We will be at the UK Championship on Friday 21st June in Division 1. We hope to network and connect with other teams, and be competitive for awards. See you there!</p>
           </div>
         
         </div>
-{/** 
+
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 p-3 text-center md:text-start text-md'>
           
           <div className='rounded-lg m-4'>
-            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
-            <p className='p-2'>mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt</p>
+            <h1 className="text-5xl font-medium font-avenir p-2">Outreach</h1>
+            <p className='p-2'>We are dedicated to expanding uptake of STEM and assisting other FTC teams. <br />We are working with a local team at Ravenswood to assist their robotics program, and are pushing STEM in local primary schools, and will be running sessions for local primaries to experiment with engineering concepts using Lego.</p>
           </div>
 
           <div className='rounded-lg m-4'>
-            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
-            <p className='p-2'>ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed</p>
+            <h1 className="text-5xl font-medium font-avenir p-2">Control</h1>
+            <p className='p-2'>Our control system uses complex algoriths and theories to maximise on-field performance. We use many advanced systems, such as Proportional, Integral, Derivative controllers and FeedForward, especially for pathing during autonomous.</p>
           </div>
 
           <div className='rounded-lg m-4'>
-            <h1 className="text-5xl font-medium font-avenir p-2">Lorem Ipsum</h1>
-            <p className='p-2'>tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim</p>
+            <h1 className="text-5xl font-medium font-avenir p-2">Design</h1>
+            <p className='p-2'>We use a combinatyion of an iterative design process and CAD systems to test and prototype ideas to create an effective robot to compete. We ahve created many effective subsystems, such as our wristed grip and drone launch system.</p>
           </div>
           
         </div>
-        */}
+
       </main>
       <Footer />
     </div>
