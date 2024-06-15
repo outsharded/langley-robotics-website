@@ -29,14 +29,15 @@ const Header: React.FC = () => {
         <div className={`w-full lg:w-auto ${isMenuOpen ? '' : 'hidden lg:flex'}`}>
           <nav className={`nav ${isMenuOpen ? 'block' : 'hidden lg:block'}`}>
             <div className="flex flex-wrap lg:justify-end text-xl">
-              {/* 
-              <Link href="/about" className="hover:text-gray-300 p-2">
-                About Us
-              </Link> 
-              */}
+
               <Link href="/" className="hover:text-gray-300 p-2">
                 Home
               </Link>
+
+              <Link href="/awards" className="hover:text-gray-300 p-2">
+                Awards
+              </Link> 
+
               <Link href="/team" className="hover:text-gray-300 p-2">
                 Meet The Team
               </Link>

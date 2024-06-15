@@ -39,15 +39,19 @@ const HomePage: React.FC = () => {
             <Image className="rounded-lg float-right w-2/5 2 m-3 aspect-[1/1] object-cover" src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">About Us</h1>
             <p className='p-2 text-lg font-medium text-start'>
-Hi! We&apos;re Powercut Robotics, 25268 (UK-497) from Langley Park School for Boys in South London. This is our rookie year of FTC. <br /> <br />
-We started the year having no idea about what FTC is, and for the whole year, we learnt as we worked. Despite our kit only arriving in November, we placed very well in regionals, winning Finalist Alliance Captain and the Innovate Award. After this, we decided to essentially rebuild our robot from scratch, having learnt a lot from other teams. We also concentrated our focus on outreach and fundraising, and recently found out that we are a championship organisation!</p>
+Hi! We&apos;re Powercut Robotics, #25268 (UK-497) from Langley Park School for Boys in South London. 
+This is our rookie year of FTC. <br /> <br /> 
+We started the year having no idea about what FTC is, and we learnt as we worked. 
+Despite our kit only arriving in November, we placed very well in regionals. 
+After this, we decided to essentially rebuild our robot from scratch, having learnt a lot from other teams. 
+We also concentrated our focus on outreach and fundraising, and recently found out that we are a championship organisation!</p>
             
           </div>
          
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-left w-2/5 m-3 aspect-[1/1] object-cover" src={in_field} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">Our Season</h1>
-            <p className='p-2 text-lg font-small text-start'>We attended the South East Regional 2 at Harris Sutton on the 23rd March. We won the Innovate award for our intake system, and Finalist Alliace Captain award. <br /> <br /> We will be at the UK Championship on Friday 21st June in Division 1. We hope to network and connect with other teams, and be competitive for awards. See you there!</p>
+            <p className='p-2 text-lg font-small text-start'>We attended the South East Regional 2 at Harris Sutton on the 23rd March. We won the Innovate award for our intake system, and Finalist Alliance Captain award. <br /> <br /> We will be at the UK Championship on Friday 21st June in Division 1. We hope to network and connect with other teams, and be competitive for awards. See you there!</p>
           </div>
         
         </div>
