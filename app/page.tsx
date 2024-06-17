@@ -70,7 +70,7 @@ We also concentrated our focus on outreach and fundraising, and recently found o
 
           <div className='rounded-lg m-4'>
             <h1 className="text-5xl font-medium font-avenir p-2">Design</h1>
-            <p className='p-2'>We use a combinatyion of an iterative design process and CAD systems to test and prototype ideas to create an effective robot to compete. We ahve created many effective subsystems, such as our wristed grip and drone launch system.</p>
+            <p className='p-2'>We use a combination of an iterative design process and CAD systems to test and prototype ideas to create an effective robot to compete. We have created many effective subsystems, such as our wristed grip and drone launch system.</p>
           </div>
           
         </div>
