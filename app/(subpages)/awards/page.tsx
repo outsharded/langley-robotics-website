@@ -44,9 +44,9 @@ const HomePage: React.FC = () => {
                         </div>
                         <div className="absolute bottom-2 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Finalist Alliance Captain</div>
                         </div>
-                </div>
 
 
+                        </div>
             </div>
 
           </div>
