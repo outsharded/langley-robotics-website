@@ -10,12 +10,12 @@ const Footer: React.FC = () => {
           <div className='px-2'>
           <a href="mailto:conatct@powercut-robotics.org" className='text-xl py-1'>Contact: contact@powercut-robotics.org</a><br/></div>
         </div>
-
+{/* 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
             <h1 className='text-5xl p-2 font-bold'>Finance</h1>
             <div className='px-2'>
             <a href="mailto:finance@powercut-robotics.org" className='text-xl py-1'>Finance: finance@powercut-robotics.org</a><br/></div>
-        </div>
+        </div> */}
 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
             <h1 className='text-5xl p-2 font-bold'>Socials</h1>

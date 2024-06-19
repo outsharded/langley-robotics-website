@@ -40,7 +40,7 @@ const HomePage: React.FC = () => {
 
                     <div className='col-span-1 relative rounded-lg overflow-hidden '>
                         <div className="">
-                        <Image className='rounded-lg w-full aspect-square object-cover object-top' src="/content/red_underglow.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                        <Image className='rounded-lg w-full aspect-square object-cover object-center' src="/content/front_robot.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                         </div>
                         <div className="absolute bottom-2 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Finalist Alliance Captain</div>
                         </div>
