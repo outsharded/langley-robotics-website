@@ -3,7 +3,7 @@ import Header from './Header';
 import Image from 'next/image';
 import Footer from './Footer';
 
-import side_pitch from '../public/content/comp_trophies.webp';
+import side_pitch from '../public/content/team_at_champs.webp';
 import backdrops from '../public/content/blue-green-underglow.jpeg';
 import in_field from '../public/content/keyring.jpeg';
 
@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
           <div className='flex justify-center items-center'>
           <div className="w-11/12 p-2 rounded-lg">
             <div className="w-full flex justify-center lg:h-[600px] 2xl:h-[800px]">
-              <Image className="rounded-lg object-cover object-center brightness-75 dark:opacity-95 opacity-100" src={side_pitch} alt="powercut team with awards"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
+              <Image className="rounded-lg object-cover object-top brightness-75 dark:opacity-95 opacity-100" src={side_pitch} alt="powercut team with awards"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
               <div className="absolute text-center pt-2 w-full text-amber-50">
                 <h1 className="text-3xl md:text-5xl font-bold font-avenir">Team Powercut</h1>
                 <h1 className="text-3xl font-medium font-avenir invisible md:visible">First Tech Challenge #25268 - UK 497</h1>
@@ -50,7 +50,8 @@ We also concentrated our focus on outreach and fundraising, and recently found o
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-left w-2/5 m-3 aspect-[1/1] object-cover" src={in_field} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">Our Season</h1>
-            <p className='p-2 text-lg font-small text-start'>We attended the South East Regional 2 at Harris Sutton on the 23rd March. We won the Innovate award for our intake system, and Finalist Alliance Captain award. <br /> <br /> We will be at the UK Championship on Friday 21st June in Division 1. We hope to network and connect with other teams, and be competitive for awards. Come see us for some stickers and keyrings!</p>
+            <p className='p-2 text-lg font-small text-start'>We attended the South East Regional 2 at Harris Sutton on the 23rd March. We won the Innovate award for our intake system, and Finalist Alliance Captain award. <br /> <br /> 
+           We attended the UK championship on 21st June. We won Think award and Division 1 Finalist Alliance 1st Pick. Thanks to all the staff and volunteers that made this season possible!</p>
           </div>
         
         </div>
