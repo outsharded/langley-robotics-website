@@ -3,9 +3,9 @@ import Header from './Header';
 import Image from 'next/image';
 import Footer from './Footer';
 
-import side_pitch from '../public/content/team_at_champs.webp';
-import backdrops from '../public/content/blue-green-underglow.jpeg';
-import in_field from '../public/content/keyring.jpeg';
+import side_pitch from '../public/content/home/team_at_champs.webp';
+import backdrops from '../public/content/home/blue-green-underglow.jpeg';
+import in_field from '../public/content/home/keyring.jpeg';
 
 const HomePage: React.FC = () => {
   return (
