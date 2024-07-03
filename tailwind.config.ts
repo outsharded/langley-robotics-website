@@ -21,6 +21,7 @@ const config: Config = {
       colors: {
         powercut_yellow:'#F5C249',
         powercut_pink:'#FF5757',
+        powercut_pink_contrast: '#FF6B6B',
         dark_bg_box: '#0a0a0a',
       }
     },

@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
           
         </div>
 
-        <div className='w-full bg-powercut_pink text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-center md:text-start py-6'>
+        <div className='w-full bg-powercut_pink_contrast text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-center md:text-start py-6'>
           
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-right w-2/5 2 m-3 aspect-[1/1] object-cover" src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />
