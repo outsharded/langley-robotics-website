@@ -20,11 +20,11 @@ const HomePage: React.FC = () => {
           <div className='pt-40 -mt-24'></div>
           <div className='flex justify-center items-center'>
           <div className="w-11/12 p-2 rounded-lg">
-            <div className="w-full flex justify-center lg:h-[600px] 2xl:h-[800px]">
-              <Image className="rounded-lg object-cover object-top brightness-75 dark:opacity-95 opacity-100" src={side_pitch} alt="powercut team with awards"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
+            <div className="w-full flex justify-center lg:h-[800px] 2xl:h-[1000px]">
+              <Image className="rounded-lg object-cover object-top brightness-90 dark:opacity-95 opacity-100" src={side_pitch} alt="powercut team with awards"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
               <div className="absolute text-center pt-2 w-full text-amber-50">
-                <h1 className="text-3xl md:text-5xl font-bold font-avenir">Team Powercut</h1>
-                <h1 className="text-3xl font-medium font-avenir invisible md:visible">First Tech Challenge #25268 - UK 497</h1>
+                <h1 className="text-4xl md:text-5xl xl:text-7xl font-bold font-avenir">Team Powercut</h1>
+                <h1 className="text-3xl xl:text-4xl font-medium font-avenir invisible lg:visible">First Tech Challenge #25268 - UK 497</h1>
             </div>
             </div>
 
