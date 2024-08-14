@@ -30,15 +30,15 @@ const Header: React.FC = () => {
           <nav className={`nav ${isMenuOpen ? 'block' : 'hidden lg:block'}`}>
             <div className="flex flex-wrap lg:justify-end text-xl">
 
-              <Link href="/" className="hover:text-gray-300 p-2">
+              <Link href="/" className="hover:text-gray-300 p-2" prefetch={true}>
                 Home
               </Link>
 
-              <Link href="/awards" className="hover:text-gray-300 p-2">
+              <Link href="/awards" className="hover:text-gray-300 p-2" prefetch={true}>
                 Awards
               </Link> 
 
-              <Link href="/team" className="hover:text-gray-300 p-2">
+              <Link href="/team" className="hover:text-gray-300 p-2">prefetch={true}
                 Meet The Team
               </Link>
               {/** 
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
                 Donate
               </Link>
               */}
-              <Link href="https://www.instagram.com/powercut_robotics/" className="hover:text-gray-300 p-2">
+              <Link href="https://www.instagram.com/powercut_robotics/" className="hover:text-gray-300 p-2" prefetch={true}>
                 Instagram
               </Link>
             </div>

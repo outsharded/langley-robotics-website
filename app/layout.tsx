@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   description: "FTC Team #25268, UK-497",
   icons: {
     icon: "/favicon.ico",
-  }
+  },
+  
 };
 
 export const viewport: Viewport = {

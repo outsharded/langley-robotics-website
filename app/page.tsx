@@ -39,19 +39,18 @@ const HomePage: React.FC = () => {
             <Image className="rounded-lg float-right w-2/5 2 m-3 aspect-[1/1] object-cover" src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">About Us</h1>
             <p className='p-2 text-lg font-medium text-start'>
-Hi! We&apos;re Powercut Robotics, #25268 (UK-497) from Langley Park School for Boys in South London. 
-This is our rookie year of FTC. <br /> <br /> 
-Despite our kit only arriving in November, we placed very well in regionals. 
-After this, we rebuilt for finals, having learnt a lot from other teams. 
-We also concentrated our focus on outreach and fundraising, and recently found out that we are a championship organisation!</p>
+Hi! We&apos;re Powercut Robotics, #25268 (UK-497) from Langley Park School for Boys in South London.  <br /> <br /> 
+As the team of a Championship Organisation, we assist other teams and promote STEM and robotics in our community and further afeild <br /> <br /> 
+
+</p>
             
           </div>
          
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-left w-2/5 m-3 aspect-[1/1] object-cover" src={in_field} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
-            <h1 className="text-4xl font-medium font-avenir p-2">Our Season</h1>
+            <h1 className="text-4xl font-medium font-avenir p-2">CENTERSTAGE 2023-24</h1>
             <p className='p-2 text-lg font-small text-start'>We attended the South East Regional 2 at Harris Sutton on the 23rd March. We won the Innovate award for our intake system, and Finalist Alliance Captain award. <br /> <br /> 
-           We attended the UK championship on 21st June. We won Think award and Division 1 Finalist Alliance 1st Pick. Thanks to all the staff and volunteers that made this season possible!</p>
+           We attended the UK championship on 21st June. We won National Think Award and were Division 1 Finalist Alliance 1st Pick. Thank you to all the staff and volunteers that made this season possible for us!</p>
           </div>
         
         </div>
