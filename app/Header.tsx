@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                 Awards
               </Link> 
 
-              <Link href="/team" className="hover:text-gray-300 p-2">prefetch={true}
+              <Link href="/team" className="hover:text-gray-300 p-2" prefetch={true}>
                 Meet The Team
               </Link>
               {/** 
