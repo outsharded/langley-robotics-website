@@ -6,12 +6,15 @@ import Footer from './Footer';
 import side_pitch from '../public/content/home/team_at_champs.webp';
 import backdrops from '../public/content/home/blue-green-underglow.jpeg';
 import in_field from '../public/content/home/keyring.jpeg';
+import Banner from './banner';
 
 const HomePage: React.FC = () => {
   return (
     
     <div className="min-h-screen font-avenir font-medium text-cyan-950 dark:text-amber-50 bg-stone-100 dark:bg-black">
+      <Banner />
       <Header />
+      
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <main className="">
 

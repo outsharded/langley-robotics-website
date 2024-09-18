@@ -2,10 +2,12 @@ import React from 'react';
 import Header from '@/app/Header';
 import Image from 'next/image';
 import Footer from '@/app/Footer';
+import Banner from '@/app/banner';
 
 const HomePage: React.FC = () => {
   return (
     <div className="h-max text-[#252622] dark:text-[#fffcf2] bg-stone-100 dark:bg-black">
+      <Banner />
       <Header />
       <main className='h-max p-1 -mt-24 pt-32 mb:p-4 px-4 mb:px-10 bg-fixed bg-cover' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}}>
         <div>

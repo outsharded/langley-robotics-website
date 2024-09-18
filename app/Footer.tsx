@@ -22,7 +22,9 @@ const Footer: React.FC = () => {
             <div className='px-2'>
             <a href="https://www.instagram.com/powercut_robotics/" className='text-xl py-1'>Instagram</a><br/></div>
         </div>
-      <p className='pl-2 m-2 font-avenir'>© Powercut Robotics</p>
+        <div><p className='pl-2 m-2 font-avenir'>© Powercut Robotics</p>
+        <a href="https://github.com/outsharded/outsharded" className='pl-2 m-2 font-avenir'>Website by Fabian Oley - outsharded</a></div>
+      
     </footer>
   );
 };
