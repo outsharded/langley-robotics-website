@@ -30,7 +30,7 @@ const Header: React.FC = () => {
           <nav className={`nav ${isMenuOpen ? 'block' : 'hidden lg:block'}`}>
             <div className="flex flex-wrap lg:justify-end text-xl">
 
-            <a href="mailto:mfry@lpsb.org.uk,contact@powercut-robotics.org?subject=Help%20the%20robotics%20team" className="hover:text-gray-300 p-2">
+            <a href="mailto:mfry@lpsb.org.uk,contact@powercut-robotics.org,info@powercut-robotics.org?subject=Help%20the%20robotics%20team" className="hover:text-gray-300 p-2">
                 Mentor us
               </a>
 
