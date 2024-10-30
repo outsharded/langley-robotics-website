@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
           <h1 className='text-5xl p-2 font-bold'>Contact Us</h1>
           <div className='px-2'>
-          <a href="mailto:conatct@powercut-robotics.org" className='text-xl py-1'>Contact: contact@powercut-robotics.org</a><br/></div>
+          <a href="mailto:mfry@lpsb.org.uk,contact@powercut-robotics.org,info@powercut-robotics.org" className='text-xl py-1'>Contact: contact@powercut-robotics.org</a><br/></div>
         </div>
 {/* 
         <div className='bg-stone-200 dark:bg-neutral-950 h-32 m-2 rounded-lg'>
