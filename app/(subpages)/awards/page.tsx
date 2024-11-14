@@ -53,7 +53,7 @@ const HomePage: React.FC = () => {
                         <Image className='rounded-lg w-full aspect-square object-cover' src="/content/awards/innovate.webp" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                         </div>
                         <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Innovate Award</div>
-                        <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">South East Qualifiers 2 - Harris Sutton</div>
+                        <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">HASU Quals</div>
                     </div>
 
                     <div className='col-span-1 relative rounded-lg overflow-hidden '>
@@ -61,7 +61,7 @@ const HomePage: React.FC = () => {
                         <Image className='rounded-lg w-full aspect-square object-cover object-center' src="/content/awards/alliance_finalist.webp" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                         </div>
                         <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Finalist Alliance Captain</div>
-                        <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">South East Qualifiers 2 - Harris Sutton</div>
+                        <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">HASU Quals</div>
                         </div>
                     </div>
             </div>
