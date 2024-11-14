@@ -43,7 +43,7 @@ const HomePage: React.FC = () => {
             <h1 className="text-4xl font-medium font-avenir p-2">About Us</h1>
             <p className='p-2 text-lg font-medium text-start'>
 Hi! We&apos;re Powercut Robotics, #25268 (UK-497) from Langley Park School for Boys in South London.  <br /> <br /> 
-As the team of a Championship Organisation, we assist other teams and promote STEM and robotics in our community and further afeild <br /> <br /> 
+As the primary team of a Championship Organisation, we assist other teams witin our organisation and outside and promote STEM and robotics in our community<br /> <br /> 
 
 </p>
             
@@ -72,7 +72,7 @@ As the team of a Championship Organisation, we assist other teams and promote ST
 
           <div className='rounded-lg m-4'>
             <h1 className="text-5xl font-medium font-avenir p-2">Design</h1>
-            <p className='p-2'>We use a combination of an iterative design process and CAD systems to test and prototype ideas to create an effective robot to compete. We have created many effective subsystems, such as our wristed grip and drone launch system.</p>
+            <p className='p-2'>Our Into the Deep robot is one of the first in the UK to implement a parallel plate drivetrain, allowing better weight distrobution and a far reduced footprint, making our robot excedingly maeverable.</p>
           </div>
           
         </div>
