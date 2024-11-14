@@ -27,48 +27,48 @@ const HomePage: React.FC = () => {
                 <div className="">
                   <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/comp/gupta.png" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Adrian</div>
-                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Project Manager</div>
+                <div className="absolute bottom-0 md:bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Adrian</div>
+                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Project Manager</div>
               </div>
 
               <div className='relative rounded-lg overflow-hidde'>
                 <div className="">
                   <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/arthur.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Arthur</div>
-                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Engineering Lead</div>
+                <div className="absolute bottom-0 md:bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Arthur</div>
+                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Engineering Lead</div>
               </div>
 
               <div className='relative rounded-lg overflow-hidden'>
                 <div className="">
                   <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/kieran.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Kieran</div>
-                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Finance Lead</div>
+                <div className="absolute bottom-0 md:bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Kieran</div>
+                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Finance Lead</div>
               </div>
 
               <div className='relative rounded-lg overflow-hidden'>
                 <div className="">
                   <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/teddy.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Teddy</div>
-                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Branding Officer</div>
+                <div className="absolute bottom-0 md:bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Teddy</div>
+                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Branding Officer</div>
               </div>
 
               <div className='relative rounded-lg overflow-hidden'>
                 <div className="">
                   <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/zozo.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Zozo</div>
-                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Outreach Officer</div>
+                <div className="absolute bottom-0 md:bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Zozo</div>
+                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Outreach Officer</div>
               </div>
 
               <div className='col-span-2 relative rounded-lg overflow-hidden'>
                 <div className="">
                   <Image className='rounded-lg w-full aspect-[2/1] object-cover' src="/headshots/fry-poon2.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
-                <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Mr Fry and Dr Poon</div>
-                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Mentors</div>
+                <div className="absolute bottom-0 md:bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Mr Fry and Dr Poon</div>
+                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Mentors</div>
               </div>
 
             </div>
