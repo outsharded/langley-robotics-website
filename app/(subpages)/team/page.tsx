@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
               
               <div className='col-span-1 relative rounded-lg overflow-hidden'>
                 <div className="">
-                  <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/fabian.webp" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                  <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/fabian.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
                 <div className="absolute bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Fabian</div>
                 <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Design Lead</div>
