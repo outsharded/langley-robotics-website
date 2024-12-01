@@ -29,11 +29,15 @@ const Header: React.FC = () => {
         <div className={`w-full lg:w-auto ${isMenuOpen ? '' : 'hidden lg:flex'}`}>
           <nav className={`nav ${isMenuOpen ? 'block' : 'hidden lg:block'}`}>
             <div className="flex flex-wrap lg:justify-end text-xl">
-<Link href="/" className="hover:text-gray-300 p-2" prefetch={true}>
+            <Link href="https://directory.powercut-robotics.org" className="hover:text-gray-300 p-2" prefetch={true}>
+                Directory
+              </Link>
+
+              <Link href="/" className="hover:text-gray-300 p-2" prefetch={true}>
                 Home
               </Link>
 
-            <a href="mailto:mfry@lpsb.org.uk,contact@powercut-robotics.org,info@powercut-robotics.org?subject=Support%20Powercut%20Robotcs" className="hover:text-gray-300 p-2">
+              <a href="mailto:mfry@lpsb.org.uk,contact@powercut-robotics.org,info@powercut-robotics.org?subject=Support%20Powercut%20Robotcs" className="hover:text-gray-300 p-2">
                 Mentor us
               </a>
 
