@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
-import logo from '../public/pink_logo.webp'
+import logo from '../public/logo.svg'
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
