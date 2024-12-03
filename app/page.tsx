@@ -72,7 +72,7 @@ As the primary team of a Championship Organisation, we assist other teams witin 
 
           <div className='rounded-lg m-4'>
             <h1 className="text-5xl font-medium font-avenir p-2">Design</h1>
-            <p className='p-2'>Our Into the Deep robot is one of the first in the UK to implement a parallel plate drivetrain, allowing better weight distrobution and a far reduced footprint, making our robot excedingly maeverable.</p>
+            <p className='p-2'>Our Into the Deep robot is one of the first in the UK to implement a parallel plate drivetrain, allowing better weight distribution and a reduced footprint, making our robot excedingly maeverable and space efficient.</p>
           </div>
           
         </div>
