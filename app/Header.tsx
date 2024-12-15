@@ -33,12 +33,8 @@ const Header: React.FC = () => {
                 Directory
               </Link>
 
-              <Link href="/" className="hover:text-gray-300 p-2" prefetch={true}>
-                Home
-              </Link>
-
               <a href="mailto:mfry@lpsb.org.uk,contact@powercut-robotics.org,info@powercut-robotics.org?subject=Support%20Powercut%20Robotcs" className="hover:text-gray-300 p-2">
-                Mentor us
+                Help us
               </a>
 
               
@@ -48,7 +44,7 @@ const Header: React.FC = () => {
               </Link> 
 
               <Link href="/team" className="hover:text-gray-300 p-2" prefetch={true}>
-                Meet The Team
+                The Team
               </Link>
               {/** 
               <Link href="/outreach" className="hover:text-gray-300 p-2">
